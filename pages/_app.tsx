@@ -14,7 +14,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <Header />
+        <Header isDark/>
         <Component {...pageProps} />
       </ThemeProvider>
     </>
